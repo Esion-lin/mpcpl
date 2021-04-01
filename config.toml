@@ -1,0 +1,20 @@
+mode = "static"
+player_name = "Alice"
+[service]
+	[service.Alice]
+	host = "127.0.0.1:9001"
+	pk = "pk****"
+	[service.Bob]
+	host = "127.0.0.1:9002"
+	pk = "pk****"
+	[service.Emme]
+	host = "127.0.0.1:9003"
+	pk = "pk****"
+[mlib]
+path = "./lib"
+
+[alias]
+#声明角色
+data_own = "Alice"
+aid_server = "Bob"
+players = ["Alice","Bob","Emme"]
