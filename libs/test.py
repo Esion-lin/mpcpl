@@ -51,21 +51,20 @@ def importbytest2():
 
 # from mpcpl.libs.Random import random
 import threading
-# from mpcpl.libs.assign import assign
-# from mpcpl.libs.Random import random
+from mpcpl.libs.assign import assign
+from mpcpl.libs.Random import random
 
 
 if __name__ == "__main__":
-    ttttt().printf()
-    # def test(name):
-    #     with assign(name) as sn:
-    #         w = 100
-    #         print([name,random()()])
+    def test(name):
+        with assign(name) as sn:
+            w = 100
+            print([name,random()()])
     # # def play(name):
     # #     with assign(name)as sn:
     # #         print(name,sn.thread_local.now_player)
     # #         #random()()
-    # test("Alice")
+    test("Alice")
     # # t = []
     # # for ele in range(100):
     # #     t.append(threading.Thread(target=test, args=('{}线程'.format(ele),)))

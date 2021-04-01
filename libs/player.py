@@ -42,7 +42,7 @@ class player:
 
 
 import toml
-player = 
+static_player = player(toml.load('./config.toml'))
 
 if __name__ == "__main__":
     p = player(toml.load('../config.toml')) 
