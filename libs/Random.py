@@ -1,4 +1,4 @@
-from mpcpl.libs.node_with_player import node_with_player
+from libs.node_with_player import node_with_player
 
 import threading
 class random(node_with_player):

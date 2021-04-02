@@ -1,5 +1,5 @@
 from contextlib import contextmanager
-from mpcpl.pyhelp.trace_stack import TraceableStack
+from pyhelp.trace_stack import TraceableStack
 import threading
 class Assign:
     def __init__(self, with_player:str):
