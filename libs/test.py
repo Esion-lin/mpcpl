@@ -58,9 +58,10 @@ from libs.arithm import Add
 
 if __name__ == "__main__":
     def test(name):
-        with assign(name) as sn:
-            print(Add().help(100))
-            print(Add().__call__(100,10))
+        with assign(name) as sdfasdf:
+            add = Add()
+            print(add.help(100))
+            print(add.__call__(100,10))
             # w = 100
             # print([name,random()()])
             # print([name,Add()(10,100)])
@@ -71,6 +72,7 @@ if __name__ == "__main__":
     test("bo")
     print(Add().help(100))
     print(Add()(100,10))
+    test("Alice")
     # test("Alice")
     # test("Bob")
     # # t = []

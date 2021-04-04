@@ -3,7 +3,7 @@ from libs.node_with_player import node_with_player
 
 class Add(node_with_player):
     def __call__(self, a, b):
-        return self.help(a)
+        return a + b
     def help(self, w):
         return w
     @staticmethod

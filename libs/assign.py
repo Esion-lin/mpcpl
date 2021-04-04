@@ -1,3 +1,8 @@
+'''
+## Assign
+### edit:   Tyan
+### remark: Assign running role.Two calling methods `with assign()` and `Assign(player)(func, *args)`
+'''
 from contextlib import contextmanager
 from pyhelp.trace_stack import TraceableStack
 import threading
